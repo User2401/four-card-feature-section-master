@@ -1,0 +1,98 @@
+body{
+    padding: 50px;
+    font-family: Poppins-ExtraLight;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#P1{
+    margin: 6px;
+}
+.Class1{
+    text-align: center;
+}
+.Image1{
+    margin-left: 240px;
+}
+.Team{
+    position: relative;
+    bottom: 145px;
+    grid-column: 2/3;
+    grid-row: 2/2;
+    border-top: hsl(0, 78%, 62%) solid;
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.318);
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);   
+}
+.SousTeam{
+    text-align: left;
+}
+
+.Karma{
+    position: relative;
+    top: 140px;
+    grid-column: 2/3;
+    grid-row: 2/3; 
+    border-top: hsl(34, 97%, 64%) solid;
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.318);
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);  
+}
+.SousKarma{
+    text-align: left;
+}
+
+.Super{
+    position: relative;
+    right: 30px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.318);
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border-top: hsl(180, 62%, 55%) solid;
+}
+.SousSuper{
+    text-align: left;
+}
+
+.Cal{
+    position: relative;
+    left: 30px;
+    grid-column: 3/3;
+    grid-row: 2/2;
+    border-top: hsl(212, 86%, 64%) solid;   
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.318);
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.SousCal{
+    text-align: left;
+}
+.Grill{
+    top: 20000px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr)  ;
+    grid-template-rows:repeat(3,1fr) ;
+    
+
+}
